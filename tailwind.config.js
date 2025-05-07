@@ -31,7 +31,7 @@ export default {
         },
 
         "black": {
-          default: "#000000",
+          0: "#000000",
           12: "#121212", 
           18: "#181818", 
           30: "#303030",
@@ -77,25 +77,3 @@ export default {
   },
   plugins: [],
 };
-
-
-// "wash-purple-50": "rgba(244, 236, 255, 1)",
-//         "wash-purple-100": "rgba(219, 197, 255, 1)",
-//         "wash-purple-200": "rgba(202, 169, 255, 1)",
-//         "wash-purple-300": "rgba(178, 130, 255, 1)",
-//         "wash-purple-400": "rgba(163, 106, 255, 1)",
-//         "wash-purple-500": "rgba(140, 69, 255, 1)",
-//         "wash-purple-600": "rgba(127, 63, 232, 1)",
-//         "wash-purple-700": "rgba(99, 49, 181, 1)",
-//         "wash-purple-800": "rgba(77, 38, 140, 1)",
-//         "wash-purple-900": "rgba(59, 29, 107, 1)",
-//         "wash-blue-50": "rgba(234, 235, 240, 1)",
-//         "wash-blue-100": "rgba(190, 192, 209, 1)",
-//         "wash-blue-200": "rgba(158, 161, 187, 1)",
-//         "wash-blue-300": "rgba(114, 118, 156, 1)",
-//         "wash-blue-400": "rgba(87, 92, 137, 1)",
-//         "wash-blue-500": "rgba(45, 51, 107, 1)",
-//         "wash-blue-600": "rgba(41, 46, 97, 1)",
-//         "wash-blue-700": "rgba(32, 36, 76, 1)",
-//         "wash-blue-800": "rgba(25, 28, 59, 1)",
-//         "wash-blue-900": "rgba(19, 21, 45, 1)",
