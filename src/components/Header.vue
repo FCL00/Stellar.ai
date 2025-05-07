@@ -3,10 +3,10 @@
 </script>
 <template>
   <nav
-    class="bg-black fixed w-full z-20 top-0 start-0 md:border-b md:border-black-12"
+    class="fixed top-0 z-20 w-full bg-black-0 start-0 md:border-b md:border-black-12"
   >
     <div
-      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      class="container flex flex-wrap items-center justify-between p-4 mx-auto md:max-w-7xl"
     >
       <a
         href="https://flowbite.com/"
@@ -22,17 +22,17 @@
           >Stellar.ai</span
         >
       </a>
-      <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+      <div class="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
         <button
           type="button"
-          class="text-white bg-purple-700 p-2 rounded-lg hover:purple-600"
+          class="p-2 text-white bg-purple-700 rounded-lg hover:purple-600"
         >
           Get started
         </button>
         <button
           data-collapse-toggle="navbar-sticky"
           type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-black-12"
+          class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-black-12"
           aria-controls="navbar-sticky"
           :aria-expanded="isToggle"
           @click="onToggle"
@@ -60,12 +60,12 @@
         id="navbar-sticky"
       >
         <ul
-          class="flex flex-col p-4 md:p-0 mt-4 bg-black border border-black-12 rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-black md:gap-0 gap-2"
+          class="flex flex-col gap-2 p-4 mt-4 bg-black border rounded-lg md:p-0 border-black-12 md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-black md:gap-0"
         >
           <li>
             <a
               href="#"
-              class="block py-2 px-3 text-white bg-purple-700 rounded-md md:bg-transparent md:p-0"
+              class="block px-3 py-2 text-white bg-purple-700 rounded-md md:bg-transparent md:p-0"
               aria-current="page"
               >Features</a
             >
@@ -73,28 +73,28 @@
           <li>
             <a
               href="#"
-              class="block py-2 px-3 md:p-0 text-white hover:bg-purple-700 md:hover:bg-transparent rounded-md"
+              class="block px-3 py-2 text-white rounded-md md:p-0 hover:bg-purple-700 md:hover:bg-transparent"
               >Clients</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="block py-2 px-3 md:p-0 text-white hover:bg-purple-700 md:hover:bg-transparent rounded-md"
+              class="block px-3 py-2 text-white rounded-md md:p-0 hover:bg-purple-700 md:hover:bg-transparent"
               >Pricing</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="block py-2 px-3 md:p-0 text-white hover:bg-purple-700 md:hover:bg-transparent rounded-md"
+              class="block px-3 py-2 text-white rounded-md md:p-0 hover:bg-purple-700 md:hover:bg-transparent"
               >Blog</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="block py-2 px-3 md:p-0 text-white hover:bg-purple-700 md:hover:bg-transparent rounded-md"
+              class="block px-3 py-2 text-white rounded-md md:p-0 hover:bg-purple-700 md:hover:bg-transparent"
               >Changelog</a
             >
           </li>
@@ -111,7 +111,7 @@ export default {
 
   data() {
     return {
-      isToggle: false,
+      isToggle: true,
     }
   },
 
